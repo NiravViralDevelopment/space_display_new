@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <title>Space Display - Exhibition Design & Build Worldwide | Global Exhibition Partner</title>
+  <meta name="description"
+    content="Space Display is a full-service exhibit and event marketing company providing premium stand design, build, and management services across Tokyo, Europe, India, Asia, and the USA.">
+  <link rel="canonical" href="https://www.spacedisplay.com/">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Space Display - Global Exhibition Design & Build">
+  <meta property="og:description"
+    content="Exhibition stand design, production, installation, and event management worldwide. Headquartered in Tokyo with global hubs.">
+  <meta property="og:url" content="https://www.spacedisplay.com/">
+  <meta property="og:site_name" content="Space Display">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/logo/img_1.png" type="image/png">
+
+  <!-- CSS Dependencies -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- Custom Design System CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Custom Floating Cursor (Desktop Only) -->
+  <div class="custom-cursor">
+    <span class="cursor-text">VIEW</span>
+  </div>
+  <div class="custom-cursor-follower"></div>
+
+
+  <!-- ==========================================
+       HEADER / NAVIGATION — RESPONSIVE NAVBAR
+  ========================================== -->
+  <header class="navbar-space d-flex align-items-center">
+    <div class="container-fluid px-md-5 w-100 d-flex justify-content-between align-items-center">
+
+      <!-- Brand Logo -->
+      <a href="index.html" class="navbar-brand-logo" data-cursor="SPACE DISPLAY">
+        <img src="assets/images/logo/logo.png" alt="Space Display" class="hero-logo-img">
+      </a>
+
+      <!-- Desktop Navigation Menu (Right Aligned, Desktop Only) -->
+      <nav class="desktop-nav-menu d-none d-lg-flex align-items-center gap-1 gap-xl-3 ms-auto" aria-label="Desktop Navigation">
+        <a href="index.html" class="nav-link-item active" style="color: var(--space-brand);">HOME</a>
+        <a href="about-us.html" class="nav-link-item">ABOUT US</a>
+        <a href="what-we-do.html" class="nav-link-item">WHAT WE DO</a>
+        <a href="worldwide.html" class="nav-link-item">WORLDWIDE</a>
+        <a href="portfolio.html" class="nav-link-item">PORTFOLIO</a>
+        <a href="insights.html" class="nav-link-item">INSIGHTS</a>
+        <a href="contact-us.html" class="btn btn-editorial btn-hero-cta ms-2">START A PROJECT</a>
+      </nav>
+
+      <!-- Minimal Hamburger Button (Mobile / Tablet Only) -->
+      <button class="hamburger-btn d-lg-none" id="hamburgerBtn" aria-label="Toggle Navigation" data-cursor="MENU">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- Full-Height Navigation Sidebar / Offcanvas -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <aside class="sidebar-menu" id="sidebarMenu" aria-label="Main Navigation">
+    <div class="sidebar-header d-flex justify-content-between align-items-center">
+      <img src="assets/images/logo/logo2.png" alt="Space Display" class="sidebar-logo-img">
+      <button class="sidebar-close-btn" id="sidebarCloseBtn" aria-label="Close Menu">
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </div>
+
+    <div class="sidebar-body d-flex flex-column justify-content-between">
+      <nav class="sidebar-nav-list">
+        <a href="index.html" class="sidebar-nav-link" style="color: var(--space-brand);"><span class="nav-num">01</span> HOME</a>
+        <a href="about-us.html" class="sidebar-nav-link"><span class="nav-num">02</span> ABOUT US</a>
+        <a href="what-we-do.html" class="sidebar-nav-link"><span class="nav-num">03</span> WHAT WE DO</a>
+        <a href="worldwide.html" class="sidebar-nav-link"><span class="nav-num">04</span> WORLDWIDE</a>
+        <a href="portfolio.html" class="sidebar-nav-link"><span class="nav-num">05</span> PORTFOLIO</a>
+        <a href="insights.html" class="sidebar-nav-link"><span class="nav-num">06</span> INSIGHTS</a>
+        <a href="contact-us.html" class="sidebar-nav-link"><span class="nav-num">07</span> START A PROJECT</a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <a href="contact-us.html" class="btn btn-sidebar-cta mb-3" id="sidebarCta">START A PROJECT →</a>
+        <div class="sidebar-contact-info">
+          <p class="mb-1"><i class="bi bi-envelope me-2"></i> info@spacedisplay.com</p>
+          <p class="mb-2"><i class="bi bi-telephone me-2"></i> +81 3 5875 7455</p>
+          <span class="sidebar-footprint-tag">JAPAN · EUROPE · INDIA · USA · ASIA</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ==========================================
+         SECTION 01 — FULL-SCREEN HERO (100vh)
+    ========================================== -->
+    <section class="hero-section" id="hero">
+
+      <!-- Full-Screen Background Slider -->
+      <div class="hero-bg-slider">
+        <!-- Slide 1 -->
+        <div class="hero-slide active" data-index="1" data-project="JETRO @ Anuga" data-location="Cologne, Germany"
+          data-cat="NATIONAL PAVILION">
+          <div class="hero-slide-bg" style="background-image: url('assets/images/hero/hero_6.jpg');"></div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="hero-slide" data-index="2" data-project="Wärtsilä @ Gastech" data-location="Tokyo, Japan"
+          data-cat="CORPORATE">
+          <div class="hero-slide-bg" style="background-image: url('assets/images/hero/hero_1.jpg');"></div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="hero-slide" data-index="3" data-project="Vestel @ IFA" data-location="Berlin, Germany"
+          data-cat="CONSUMER TECH">
+          <div class="hero-slide-bg" style="background-image: url('assets/images/hero/hero_2.jpg');"></div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="hero-slide" data-index="4" data-project="Hitachi Metals @ InnoTrans" data-location="Berlin, Germany"
+          data-cat="INDUSTRIAL">
+          <div class="hero-slide-bg" style="background-image: url('assets/images/hero/hero_3.jpg');"></div>
+        </div>
+        <!-- Slide 5 -->
+        <div class="hero-slide" data-index="5" data-project="Revol @ NRA Show" data-location="Chicago, USA"
+          data-cat="HOSPITALITY">
+          <div class="hero-slide-bg" style="background-image: url('assets/images/hero/hero_4.jpg');"></div>
+        </div>
+        <!-- Slide 6 -->
+        <div class="hero-slide" data-index="6" data-project="Thailand Pavilion @ Seafood Expo"
+          data-location="Brussels, Belgium" data-cat="COUNTRY PAVILION">
+          <div class="hero-slide-bg" style="background-image: url('assets/images/hero/hero_5.jpg');"></div>
+        </div>
+      </div>
+
+      <!-- Dark Gradient Overlay for Legibility -->
+      <div class="hero-overlay"></div>
+
+      <!-- Full Viewport Hero Content Container -->
+      <div class="container-fluid px-md-5 hero-content-container">
+
+        <!-- Refined Editorial Hero Typography -->
+        <div class="hero-headline-wrap">
+          <h1 class="hero-editorial-heading">
+            <span class="hero-title-line"><span>EXHIBITION</span></span>
+            <span class="hero-title-line"><span>DESIGN &amp; BUILD</span></span>
+            <span class="hero-title-line hero-line-accent"><span>WORLDWIDE</span></span>
+          </h1>
+
+          <div class="hero-stagger-sub">
+            <span>Japan</span> <span class="dot">·</span>
+            <span>Europe</span> <span class="dot">·</span>
+            <span>India</span> <span class="dot">·</span>
+            <span>USA</span> <span class="dot">·</span>
+            <span>Asia</span></span>
+          </div>
+        </div>
+
+        <!-- Hero Bottom Bar & Controls -->
+        <div class="hero-bottom-bar">
+
+          <!-- Slide Meta / Counter -->
+          <div class="hero-meta-box">
+            <!-- <div class="hero-counter-wrap">
+              <span class="hero-counter-current">01</span>
+              <span class="hero-counter-divider">/</span>
+              <span class="hero-counter-total">06</span>
+            </div> 
+            <span class="hero-meta-dash">—</span>-->
+            <div class="hero-project-info">
+              <span class="hero-project-name">JETRO @ Anuga</span>
+              <span class="hero-project-location">Cologne, Germany</span>
+            </div>
+          </div>
+
+          <!-- Slide Line Pagination Indicators -->
+          <div class="hero-pagination-lines d-none d-lg-flex">
+            <button class="hero-pag-line active" data-slide="0" aria-label="Slide 1"></button>
+            <button class="hero-pag-line" data-slide="1" aria-label="Slide 2"></button>
+            <button class="hero-pag-line" data-slide="2" aria-label="Slide 3"></button>
+            <button class="hero-pag-line" data-slide="3" aria-label="Slide 4"></button>
+            <button class="hero-pag-line" data-slide="4" aria-label="Slide 5"></button>
+            <button class="hero-pag-line" data-slide="5" aria-label="Slide 6"></button>
+          </div>
+
+          <!-- Slider Controls & Scroll Prompt -->
+          <div class="hero-controls-group">
+            <!-- <a href="#projects" class="hero-scroll-btn" aria-label="Scroll Down">
+              SCROLL <span class="hero-scroll-arrow">↓</span>
+            </a> -->
+
+            <!-- <div class="hero-arrow-nav">
+              <button class="btn-hero-arrow btn-hero-prev" aria-label="Previous Slide">
+                <i class="bi bi-arrow-left"></i>
+              </button>
+              <button class="btn-hero-arrow btn-hero-next" aria-label="Next Slide">
+                <i class="bi bi-arrow-right"></i>
+              </button>
+            </div> -->
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+     <!-- ==========================================
+         SECTION 06 — STATS / EXPERIENCE
+    ========================================== -->
+    <section class="section-padding stats-section">
+      <div class="container-fluid px-md-5">
+        <div class="row g-0 align-items-stretch">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item-box">
+              <div class="stat-number" data-count="25">0</div>
+              <div class="stat-label">YEARS</div>
+              <p class="stat-desc">EXHIBITION EXPERIENCE</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item-box">
+              <div class="stat-number" data-count="30">0</div>
+              <div class="stat-label">COUNTRIES</div>
+              <p class="stat-desc">DELIVERED</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item-box">
+              <div class="stat-number" data-count="100">0%</div>
+              <div class="stat-label">GLOBAL</div>
+              <p class="stat-desc">PRODUCTION NETWORK</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item-box border-end-0">
+              <div class="stat-number">01</div>
+              <div class="stat-label">SINGLE PARTNER</div>
+              <p class="stat-desc">DESIGN → BUILD → ON-SITE</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- ==========================================
+         SECTION 02 — PORTFOLIO SPOTLIGHT
+    ========================================== -->
+    <section class="section-padding portfolio-spotlight-section" id="projects">
+      <div class="container-fluid px-md-5">
+
+        <div class="section-header-editorial mb-5">
+          <div>
+            <span class="tag-label mb-2 d-block">PORTFOLIO SPOTLIGHT</span>
+            <h2 class="spotlight-main-heading">Selected work<br>across exhibitions,<br>pavilions and<br>global
+              experiences.</h2>
+          </div>
+          <!-- <p class="tag-label text-md-end mb-0 d-none d-md-block">AUTHENTIC EXHIBITION ARCHITECTURE</p> -->
+        </div>
+
+        <!-- Asymmetric Editorial Portfolio Grid inspired by Kalium Architecture Reference -->
+        <div class="spotlight-asymmetric-grid">
+
+          <!-- Left Column (2 Cards) -->
+          <div class="spotlight-col spotlight-col-left">
+
+            <a href="https://www.spacedisplay.com/portfolio/" class="spotlight-card card-ratio-1610 reveal-up" data-cursor="VIEW STAND">
+              <div class="spotlight-img-wrapper">
+                <img src="assets/images/projects/project_1.jpg" alt="Wärtsilä @ Gastech Tokyo">
+                <div class="spotlight-card-overlay"></div>
+              </div>
+              <div class="spotlight-card-info">
+                <span class="spotlight-cat-tag">Consumer tech</span>
+                <h3 class="spotlight-title">Wärtsilä @ Gastech</h3>
+                <p class="spotlight-loc">Tokyo, Japan</p>
+              </div>
+            </a>
+
+            <a href="https://www.spacedisplay.com/portfolio/" class="spotlight-card card-ratio-43 reveal-up" data-cursor="VIEW STAND">
+              <div class="spotlight-img-wrapper">
+                <img src="assets/images/projects/project_4.jpg" alt="Revol NRA Chicago">
+                <div class="spotlight-card-overlay"></div>
+              </div>
+              <div class="spotlight-card-info">
+                <span class="spotlight-cat-tag">Design & Dining</span>
+                <h3 class="spotlight-title">Revol @ NRA Show</h3>
+                <p class="spotlight-loc">Chicago, USA</p>
+              </div>
+            </a>
+
+          </div>
+
+          <!-- Center Featured Column (1 Dominant Large Card) -->
+          <div class="spotlight-col spotlight-col-featured">
+
+            <a href="https://www.spacedisplay.com/portfolio/" class="spotlight-card card-featured reveal-up" data-cursor="EXPLORE FEATURE">
+              <div class="spotlight-img-wrapper">
+                <img src="assets/images/projects/project_6.jpg" alt="JETRO Anuga Cologne">
+                <div class="spotlight-card-overlay featured-overlay"></div>
+                <div class="spotlight-featured-badge">FEATURED PROJECT</div>
+              </div>
+              <div class="spotlight-card-info featured-info">
+                <span class="spotlight-cat-tag featured-tag">Corporate stand</span>
+                <h3 class="spotlight-title featured-title">JETRO</h3>
+                <p class="spotlight-loc featured-loc">Anuga · Cologne, Germany</p>
+              </div>
+            </a>
+
+          </div>
+
+          <!-- Right Column (2 Cards) -->
+          <div class="spotlight-col spotlight-col-right">
+
+            <a href="https://www.spacedisplay.com/portfolio/" class="spotlight-card card-ratio-43 reveal-up" data-cursor="VIEW STAND">
+              <div class="spotlight-img-wrapper">
+                <img src="assets/images/projects/project_2.jpg" alt="Vestel IFA Berlin">
+                <div class="spotlight-card-overlay"></div>
+              </div>
+              <div class="spotlight-card-info">
+                <span class="spotlight-cat-tag">CONSUMER TECH</span>
+                <h3 class="spotlight-title">Vestel @ IFA</h3>
+                <p class="spotlight-loc">Berlin, Germany</p>
+              </div>
+            </a>
+
+            <a href="https://www.spacedisplay.com/portfolio/" class="spotlight-card card-ratio-1610 reveal-up" data-cursor="VIEW STAND">
+              <div class="spotlight-img-wrapper">
+                <img src="assets/images/projects/project_3.jpg" alt="Hitachi Metals InnoTrans">
+                <div class="spotlight-card-overlay"></div>
+              </div>
+              <div class="spotlight-card-info">
+                <span class="spotlight-cat-tag">INDUSTRIAL TECH</span>
+                <h3 class="spotlight-title">Hitachi Metals @ InnoTrans</h3>
+                <p class="spotlight-loc">Berlin, Germany</p>
+              </div>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 03 — WHAT WE DO / CAPABILITIES
+    ========================================== -->
+    <section class="section-padding capabilities-section" id="services">
+      <div class="container-fluid px-md-5">
+
+        <div class="row align-items-start g-5">
+
+          <!-- Left Column (40% width on desktop): Sticky Section Intro & Active Indicator -->
+          <div class="col-lg-5 col-xl-4 sticky-lg-top capabilities-sidebar">
+            <div class="capabilities-intro-box">
+              <span class="tag-label mb-2 d-block">CAPABILITIES</span>
+              <h2 class="capabilities-heading mb-3">WHAT WE DO</h2>
+              <p class="capabilities-sub-text mb-4">
+                From concept and technical planning to production, installation and on-site management.
+              </p>
+
+              <!-- Active Capability Indicator -->
+              <div class="capability-progress-bar d-none d-lg-block">
+                <div class="progress-info mb-2 d-flex align-items-center">
+                  <span class="progress-current" id="activeServiceNum">01</span>
+                  <span class="progress-divider mx-1">/</span>
+                  <span class="progress-total">08</span>
+                  <span class="progress-title ms-3" id="activeServiceTitle">DESIGN</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" id="serviceProgressFill" style="width: 12.5%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column (60% width on desktop): Interactive Service List -->
+          <div class="col-lg-7 col-xl-8">
+            <div class="capabilities-list">
+
+              <div class="capability-item active" data-index="1" data-title="DESIGN"
+                data-img="assets/images/services/service_1.jpg">
+                <div class="capability-row">
+                  <div class="capability-meta">
+                    <span class="capability-num">01</span>
+                    <h3 class="capability-title"><a href="what-we-do.html#design">DESIGN</a></h3>
+                  </div>
+                  <div class="capability-arrow"><a href="what-we-do.html#design" aria-label="DESIGN"><i class="bi bi-arrow-right"></i></a></div>
+                </div>
+                <div class="capability-expand">
+                  <p class="capability-desc">Architectural booth concepts, 3D spatial design, and brand experience
+                    planning.</p>
+                  <!-- <div class="capability-thumb d-lg-none">
+                    <img src="assets/images/services/service_1.jpg" alt="Design Capability">
+                  </div> -->
+                </div>
+              </div>
+
+              <div class="capability-item" data-index="2" data-title="TECHNICAL PLANNING"
+                data-img="assets/images/services/service_2.jpg">
+                <div class="capability-row">
+                  <div class="capability-meta">
+                    <span class="capability-num">02</span>
+                    <h3 class="capability-title"><a href="what-we-do.html#technical-planning">TECHNICAL PLANNING</a></h3>
+                  </div>
+                  <div class="capability-arrow"><a href="what-we-do.html#technical-planning" aria-label="TECHNICAL PLANNING"><i class="bi bi-arrow-right"></i></a></div>
+                </div>
+                <div class="capability-expand">
+                  <p class="capability-desc">Structural engineering, hall regulations, electrical &amp; static
+                    calculations.</p>
+                  <!-- <div class="capability-thumb d-lg-none">
+                    <img src="assets/images/services/service_2.jpg" alt="Technical Planning Capability">
+                  </div> -->
+                </div>
+              </div>
+
+              <div class="capability-item" data-index="3" data-title="PRODUCTION"
+                data-img="assets/images/projects/project_6.jpg">
+                <div class="capability-row">
+                  <div class="capability-meta">
+                    <span class="capability-num">03</span>
+                    <h3 class="capability-title"><a href="what-we-do.html#production">PRODUCTION</a></h3>
+                  </div>
+                  <div class="capability-arrow"><a href="what-we-do.html#production" aria-label="PRODUCTION"><i class="bi bi-arrow-right"></i></a></div>
+                </div>
+                <div class="capability-expand">
+                  <p class="capability-desc">Custom fabrication, joinery, modular systems, and high-finish
+                    craftsmanship.</p>
+                  <!-- <div class="capability-thumb d-lg-none">
+                    <img src="assets/images/projects/project_6.jpg" alt="Production Capability">
+                  </div> -->
+                </div>
+              </div>
+
+              <div class="capability-item" data-index="4" data-title="GRAPHICS"
+                data-img="assets/images/projects/project_7.jpg">
+                <div class="capability-row">
+                  <div class="capability-meta">
+                    <span class="capability-num">04</span>
+                    <h3 class="capability-title"><a href="what-we-do.html#graphics">GRAPHICS</a></h3>
+                  </div>
+                  <div class="capability-arrow"><a href="what-we-do.html#graphics" aria-label="GRAPHICS"><i class="bi bi-arrow-right"></i></a></div>
+                </div>
+                <div class="capability-expand">
+                  <p class="capability-desc">Large format fabric graphics, vinyl wraps, illuminated signage, and
+                    branding.</p>
+                  <!-- <div class="capability-thumb d-lg-none">
+                    <img src="assets/images/projects/project_7.jpg" alt="Graphics Capability">
+                  </div> -->
+                </div>
+              </div>
+
+              <div class="capability-item" data-index="5" data-title="AV & DIGITAL"
+                data-img="assets/images/projects/project_8.jpg">
+                <div class="capability-row">
+                  <div class="capability-meta">
+                    <span class="capability-num">05</span>
+                    <h3 class="capability-title"><a href="what-we-do.html#av-digital">AV &amp; DIGITAL</a></h3>
+                  </div>
+                  <div class="capability-arrow"><a href="what-we-do.html#av-digital" aria-label="AV &amp; DIGITAL"><i class="bi bi-arrow-right"></i></a></div>
+                </div>
+                <div class="capability-expand">
+                  <p class="capability-desc">Seamless LED video walls, interactive touchscreen kiosks, and audio
+                    integration.</p>
+                  <!-- <div class="capability-thumb d-lg-none">
+                    <img src="assets/images/projects/project_8.jpg" alt="AV & Digital Capability">
+                  </div> -->
+                </div>
+              </div>
+
+              <div class="capability-item" data-index="6" data-title="LOGISTICS"
+                data-img="assets/images/projects/project_9.jpg">
+                <div class="capability-row">
+                  <div class="capability-meta">
+                    <span class="capability-num">06</span>
+                    <h3 class="capability-title"><a href="what-we-do.html#logistics">LOGISTICS</a></h3>
+                  </div>
+                  <div class="capability-arrow"><a href="what-we-do.html#logistics" aria-label="LOGISTICS"><i class="bi bi-arrow-right"></i></a></div>
+                </div>
+                <div class="capability-expand">
+                  <p class="capability-desc">Global shipping, customs clearance, site storage, and transit coordination.
+                  </p>
+                  <!-- <div class="capability-thumb d-lg-none">
+                    <img src="assets/images/projects/project_9.jpg" alt="Logistics Capability">
+                  </div> -->
+                </div>
+              </div>
+
+              <div class="capability-item" data-index="7" data-title="INSTALLATION"
+                data-img="assets/images/pavilions/pavilion_1.jpg">
+                <div class="capability-row">
+                  <div class="capability-meta">
+                    <span class="capability-num">07</span>
+                    <h3 class="capability-title"><a href="what-we-do.html#installation">INSTALLATION</a></h3>
+                  </div>
+                  <div class="capability-arrow"><a href="what-we-do.html#installation" aria-label="INSTALLATION"><i class="bi bi-arrow-right"></i></a></div>
+                </div>
+                <div class="capability-expand">
+                  <p class="capability-desc">On-site structural build, skilled labor supervision, and post-event
+                    dismantle.</p>
+                  <!-- <div class="capability-thumb d-lg-none">
+                    <img src="assets/images/pavilions/pavilion_1.jpg" alt="Installation Capability">
+                  </div> -->
+                </div>
+              </div>
+
+              <div class="capability-item" data-index="8" data-title="ON-SITE MANAGEMENT"
+                data-img="assets/images/pavilions/pavilion_2.jpg">
+                <div class="capability-row">
+                  <div class="capability-meta">
+                    <span class="capability-num">08</span>
+                    <h3 class="capability-title"><a href="what-we-do.html#on-site-management">ON-SITE MANAGEMENT</a></h3>
+                  </div>
+                  <div class="capability-arrow"><a href="what-we-do.html#on-site-management" aria-label="ON-SITE MANAGEMENT"><i class="bi bi-arrow-right"></i></a></div>
+                </div>
+                <div class="capability-expand">
+                  <p class="capability-desc">Dedicated multilingual project directors on-site throughout show days.</p>
+                  <!-- <div class="capability-thumb d-lg-none">
+                    <img src="assets/images/pavilions/pavilion_2.jpg" alt="On-Site Management Capability">
+                  </div> -->
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 04 — WORLDWIDE (SIMPLIFIED WORLD MAP)
+    ========================================== -->
+    <section class="section-padding worldwide-section" id="worldwide">
+      <div class="container-fluid px-md-5">
+
+        <div class="section-header-editorial mb-4">
+          <div>
+            <span class="tag-label mb-2 d-block">GLOBAL FOOTPRINT</span>
+            <h2 class="section-heading">WORLDWIDE</h2>
+          </div>
+          <p class="tag-label text-md-end mb-0">YOUR GLOBAL EXHIBITION PARTNER</p>
+        </div>
+
+        <!-- Worldwide Location Filter Buttons (ALL, JAPAN, EUROPE, USA, INDIA, CHINA) -->
+        <div class="region-filter-bar mb-4">
+          <button class="btn-region-tab active" data-region="all">ALL</button>
+          <button class="btn-region-tab" data-region="japan">JAPAN</button>
+          <button class="btn-region-tab" data-region="europe">EUROPE</button>
+          <button class="btn-region-tab" data-region="usa">USA</button>
+          <button class="btn-region-tab" data-region="india">INDIA</button>
+          <button class="btn-region-tab" data-region="china">CHINA</button>
+        </div>
+
+        <!-- Location buttons → Interactive world map → Office markers -->
+        <div class="world-map-container">
+          <div class="world-map-box">
+            <svg id="world-map" class="world-map-svg" viewBox="0 0 1200 650" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" aria-label="Space Display World Map"></svg>
+            <div id="office-popup" class="map-office-popup" aria-hidden="true">
+              <div class="map-office-popup-name" id="popup-continent"></div>
+              <div class="map-office-popup-address" id="popup-address"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 05 — COUNTRY PAVILIONS
+    ========================================== -->
+    <!-- <section class="section-padding pavilions-section" id="pavilions">
+      <div class="container-fluid px-md-5">
+        <div class="section-header-editorial mb-4">
+          <div>
+            <span class="tag-label mb-2 d-block">COUNTRY PAVILIONS</span>
+            <h2 class="section-heading text-main">COUNTRY PAVILIONS</h2>
+          </div>
+          <p class="tag-label text-md-end mb-0 d-none d-md-block max-w-md">INTERNATIONAL PAVILION DESIGN AND BUILD
+            DELIVERED ACROSS MAJOR GLOBAL EXHIBITIONS.</p>
+        </div>
+
+        <div class="pavilion-filter-bar mb-5" role="tablist" aria-label="Country Pavilion Categories">
+          <button class="pavilion-tab-btn active" data-filter="japan" role="tab" aria-selected="true" tabindex="0">JAPAN PAVILIONS</button>
+          <button class="pavilion-tab-btn" data-filter="regional" role="tab" aria-selected="false" tabindex="-1">REGIONAL / PREFECTURAL PAVILIONS</button>
+          <button class="pavilion-tab-btn" data-filter="international" role="tab" aria-selected="false" tabindex="-1">INTERNATIONAL PAVILIONS</button>
+        </div>
+
+        <div class="pavilion-portfolio-grid" id="pavilionGrid">
+
+          <div class="pavilion-grid-item item-featured" data-category="all international">
+            <a href="https://www.spacedisplay.com/portfolio/" class="pavilion-card">
+              <div class="pavilion-card-image">
+                <img src="assets/images/pavilions/pavilion_1.jpg" alt="Thailand Pavilion @ Seafood Expo Global">
+              </div>
+              <div class="pavilion-card-overlay">
+                <span class="pavilion-card-cat">INTERNATIONAL PAVILION</span>
+                <h3 class="pavilion-card-title">THAILAND PAVILION</h3>
+                <p class="pavilion-card-loc">SEAFOOD EXPO GLOBAL · BRUSSELS</p>
+                <span class="pavilion-card-action">VIEW PROJECT <i class="bi bi-arrow-right ms-1"></i></span>
+              </div>
+            </a>
+          </div>
+
+          <div class="pavilion-grid-item" data-category="all japan regional">
+            <a href="https://www.spacedisplay.com/portfolio/" class="pavilion-card">
+              <div class="pavilion-card-image">
+                <img src="assets/images/projects/project_6.jpg" alt="JETRO @ Anuga Cologne">
+              </div>
+              <div class="pavilion-card-overlay">
+                <span class="pavilion-card-cat">JAPAN &amp; REGIONAL</span>
+                <h3 class="pavilion-card-title">JETRO PAVILION</h3>
+                <p class="pavilion-card-loc">ANUGA · COLOGNE, GERMANY</p>
+                <span class="pavilion-card-action">VIEW PROJECT <i class="bi bi-arrow-right ms-1"></i></span>
+              </div>
+            </a>
+          </div>
+          <div class="pavilion-grid-item" data-category="all international">
+            <a href="https://www.spacedisplay.com/portfolio/" class="pavilion-card">
+              <div class="pavilion-card-image">
+                <img src="assets/images/pavilions/pavilion_2.jpg" alt="Malaysia Pavilion @ Seafood Expo Global">
+              </div>
+              <div class="pavilion-card-overlay">
+                <span class="pavilion-card-cat">INTERNATIONAL PAVILION</span>
+                <h3 class="pavilion-card-title">MALAYSIA PAVILION</h3>
+                <p class="pavilion-card-loc">SEAFOOD EXPO GLOBAL · BRUSSELS</p>
+                <span class="pavilion-card-action">VIEW PROJECT <i class="bi bi-arrow-right ms-1"></i></span>
+              </div>
+            </a>
+          </div>
+
+          <div class="pavilion-grid-item" data-category="all japan international">
+            <a href="https://www.spacedisplay.com/portfolio/" class="pavilion-card">
+              <div class="pavilion-card-image">
+                <img src="assets/images/pavilions/pavilion_3.jpg" alt="UK Pavilion @ Engine Expo Stuttgart">
+              </div>
+              <div class="pavilion-card-overlay">
+                <span class="pavilion-card-cat">INTERNATIONAL PAVILION</span>
+                <h3 class="pavilion-card-title">UK PAVILION</h3>
+                <p class="pavilion-card-loc">ENGINE EXPO · STUTTGART / JSAE JAPAN</p>
+                <span class="pavilion-card-action">VIEW PROJECT <i class="bi bi-arrow-right ms-1"></i></span>
+              </div>
+            </a>
+          </div>
+
+          <div class="pavilion-grid-item" data-category="all regional">
+            <a href="https://www.spacedisplay.com/portfolio/" class="pavilion-card">
+              <div class="pavilion-card-image">
+                <img src="assets/images/pavilions/pavilion_4.jpg" alt="BFAR @ Seafood Expo Global">
+              </div>
+              <div class="pavilion-card-overlay">
+                <span class="pavilion-card-cat">REGIONAL PAVILION</span>
+                <h3 class="pavilion-card-title">BFAR PHILIPPINES</h3>
+                <p class="pavilion-card-loc">SEAFOOD EXPO GLOBAL · BRUSSELS</p>
+                <span class="pavilion-card-action">VIEW PROJECT <i class="bi bi-arrow-right ms-1"></i></span>
+              </div>
+            </a>
+          </div>
+          <div class="pavilion-grid-item item-featured" data-category="all international">
+            <a href="https://www.spacedisplay.com/portfolio/" class="pavilion-card">
+              <div class="pavilion-card-image">
+                <img src="assets/images/pavilions/pavilion_5.jpg" alt="BordBia @ Gulfood Dubai">
+              </div>
+              <div class="pavilion-card-overlay">
+                <span class="pavilion-card-cat">INTERNATIONAL PAVILION</span>
+                <h3 class="pavilion-card-title">BORDBIA IRELAND</h3>
+                <p class="pavilion-card-loc">GULFOOD · DUBAI / QINGDAO CHINA</p>
+                <span class="pavilion-card-action">VIEW PROJECT <i class="bi bi-arrow-right ms-1"></i></span>
+              </div>
+            </a>
+          </div>
+
+          <div class="pavilion-grid-item" data-category="all regional">
+            <a href="https://www.spacedisplay.com/portfolio/" class="pavilion-card">
+              <div class="pavilion-card-image">
+                <img src="assets/images/pavilions/pavilion_6.jpg" alt="Citem @ Anuga Cologne">
+              </div>
+              <div class="pavilion-card-overlay">
+                <span class="pavilion-card-cat">REGIONAL PAVILION</span>
+                <h3 class="pavilion-card-title">CITEM PHILIPPINES</h3>
+                <p class="pavilion-card-loc">ANUGA COLOGNE · ICFF NEW YORK</p>
+                <span class="pavilion-card-action">VIEW PROJECT <i class="bi bi-arrow-right ms-1"></i></span>
+              </div>
+            </a>
+          </div>
+
+          <div class="pavilion-grid-item" data-category="all international">
+            <a href="https://www.spacedisplay.com/portfolio/" class="pavilion-card">
+              <div class="pavilion-card-image">
+                <img src="assets/images/pavilions/pavilion_7.jpg" alt="France Pavilion @ IHHS Chicago">
+              </div>
+              <div class="pavilion-card-overlay">
+                <span class="pavilion-card-cat">INTERNATIONAL PAVILION</span>
+                <h3 class="pavilion-card-title">FRANCE PAVILION</h3>
+                <p class="pavilion-card-loc">IHHS · CHICAGO, USA</p>
+                <span class="pavilion-card-action">VIEW PROJECT <i class="bi bi-arrow-right ms-1"></i></span>
+              </div>
+            </a>
+          </div>
+          <div class="pavilion-grid-item" data-category="all regional">
+            <a href="https://www.spacedisplay.com/portfolio/" class="pavilion-card">
+              <div class="pavilion-card-image">
+                <img src="assets/images/pavilions/pavilion_8.jpg" alt="NFA @ Seafood Expo Global">
+              </div>
+              <div class="pavilion-card-overlay">
+                <span class="pavilion-card-cat">REGIONAL PAVILION</span>
+                <h3 class="pavilion-card-title">NFA PAVILION</h3>
+                <p class="pavilion-card-loc">SEAFOOD EXPO GLOBAL · BRUSSELS</p>
+                <span class="pavilion-card-action">VIEW PROJECT <i class="bi bi-arrow-right ms-1"></i></span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+
+   
+
+    <!-- ==========================================
+         SECTION 07 — WE STAND WITH OUR CLIENTS
+    ========================================== -->
+    <section class="section-padding clients-section">
+      <div class="container-fluid px-md-5">
+
+        <div class="section-header-editorial text-center mb-5 justify-content-center">
+          <div>
+            <span class="tag-label mb-2 d-block">OUR TRUSTED CLIENTS</span>
+            <h2 class="section-heading text-main">WE STAND WITH OUR CLIENTS</h2>
+          </div>
+        </div>
+
+        <div class="clients-marquee-wrapper">
+          <div class="clients-marquee-track">
+            <div class="clients-marquee-group">
+              <div class="client-logo-item"><img src="assets/images/logo/client_1_wartsila.png" alt="Wärtsilä Client Logo"></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_2_cargill.png" alt="Cargill Client Logo"></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_3_bordbia.png" alt="Bord Bia Client Logo"></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_4_murata.png" alt="MuRata Client Logo"></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_5_thk.png" alt="THK Client Logo"></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_6_ditp.png" alt="DITP Client Logo"></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_7_debuyer.png" alt="de Buyer Client Logo"></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_8_dnvgl.png" alt="DNV GL Client Logo"></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_9_jetro.png" alt="JETRO Client Logo"></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_10_revol.png" alt="Revol Client Logo"></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_11_kawasaki.png" alt="Kawasaki Client Logo"></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_12_brasil.png" alt="Brasil Client Logo"></div>
+            </div>
+            <div class="clients-marquee-group" aria-hidden="true">
+              <div class="client-logo-item"><img src="assets/images/logo/client_1_wartsila.png" alt=""></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_2_cargill.png" alt=""></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_3_bordbia.png" alt=""></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_4_murata.png" alt=""></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_5_thk.png" alt=""></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_6_ditp.png" alt=""></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_7_debuyer.png" alt=""></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_8_dnvgl.png" alt=""></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_9_jetro.png" alt=""></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_10_revol.png" alt=""></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_11_kawasaki.png" alt=""></div>
+              <div class="client-logo-item"><img src="assets/images/logo/client_12_brasil.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 08 — ABOUT SPACE DISPLAY
+    ========================================== -->
+    <section class="section-padding about-section" id="about">
+      <div class="container-fluid px-md-5">
+        <div class="row align-items-center g-5">
+
+          <div class="col-lg-6">
+            <span class="tag-label mb-3 d-block">ABOUT SPACE DISPLAY</span>
+            <h2 class="about-text-lead">
+              A global exhibition partner producing high-impact brand experiences from concept to completion.
+            </h2>
+            <p class="about-body-text">
+              Space Display is a full-service exhibit and event marketing company. Headquartered in Tokyo, Japan with
+              regional infrastructure across Europe, China, and North America, we deliver tailored architecture,
+              precision engineering, and complete on-site management for premier trade shows worldwide.
+            </p>
+            <a href="about-us.html" class="btn btn-editorial" data-cursor="TALK TO US">DISCOVER SPACE DISPLAY →</a>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="position-relative overflow-hidden" style="height: 500px;">
+              <img src="assets/images/hero/hero_6.jpg" alt="Space Display Architecture"
+                class="w-100 h-100 object-fit-cover">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 09 — START A PROJECT / CONTACT FORM
+    ========================================== -->
+    <section class="section-padding initiate-brief-section" id="contact">
+      <!-- <div class="brief-watermark">09</div> -->
+
+      <div class="container-fluid px-md-5 position-relative" style="z-index: 2;">
+
+        <div class="row g-5 align-items-start">
+
+          <div class="col-lg-5">
+            <span class="brief-section-tag mb-3 d-inline-block">START A PROJECT</span>
+            <h2 class="brief-display-heading mb-3">
+              START A PROJECT
+            </h2>
+            <p class="brief-lead-text mb-4">
+              Tell us about your next exhibition or event. Our international team will respond within 24 hours with
+              custom design and budget consultation.
+            </p>
+            <div class="brief-global-footprint">
+              <span class="footprint-pill">TOKYO</span>
+              <span class="footprint-pill">EUROPE</span>
+              <span class="footprint-pill">INDIA</span>
+              <span class="footprint-pill">ASIA</span>
+              <span class="footprint-pill">USA</span>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="brief-form-card">
+              <form
+                onsubmit="event.preventDefault(); alert('Thank you! Your project brief has been initiated. Our team will contact you shortly.');">
+                <div class="row g-4">
+
+                  <div class="col-md-6">
+                    <label class="brief-form-label">EXHIBITION NAME</label>
+                    <input type="text" class="brief-form-input" placeholder="e.g. Gastech, IFA, Anuga" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label class="brief-form-label">CITY / COUNTRY</label>
+                    <input type="text" class="brief-form-input" placeholder="e.g. Tokyo, Berlin, Chicago" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label class="brief-form-label">STAND SIZE (SQM)</label>
+                    <input type="text" class="brief-form-input" placeholder="e.g. 50 sqm, 200 sqm">
+                  </div>
+
+                  <div class="col-md-6">
+                    <label class="brief-form-label">ESTIMATED BUDGET</label>
+                    <input type="text" class="brief-form-input" placeholder="Select currency &amp; range">
+                  </div>
+
+                  <div class="col-md-6">
+                    <label class="brief-form-label">YOUR NAME</label>
+                    <input type="text" class="brief-form-input" placeholder="Full name" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label class="brief-form-label">COMPANY NAME</label>
+                    <input type="text" class="brief-form-input" placeholder="Company / Brand" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label class="brief-form-label">EMAIL ADDRESS</label>
+                    <input type="email" class="brief-form-input" placeholder="email@company.com" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label class="brief-form-label">PHONE NUMBER</label>
+                    <input type="tel" class="brief-form-input" placeholder="+81 ...">
+                  </div>
+
+                  <div class="col-12">
+                    <label class="brief-form-label">PROJECT BRIEF / DETAILS</label>
+                    <textarea class="brief-form-input" rows="3"
+                      placeholder="Share stand requirements, floor plan link, or project goals..."></textarea>
+                  </div>
+
+                  <div class="col-12 pt-2">
+                    <button type="submit" class="brief-submit-btn w-100" data-cursor="SUBMIT">
+                      START A PROJECT <span class="btn-arrow">→</span>
+                    </button>
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================
+       SECTION 10 — FOOTER
+  ========================================== -->
+  <footer class="footer-space">
+    <div class="container-fluid px-md-5">
+      <div class="row g-5 pb-5 border-bottom border-secondary">
+
+        <!-- Col 1: Brand Info -->
+        <div class="col-lg-4">
+          <div class="footer-logo text-white">SPACE DISPLAY</div>
+          <p class="text-on-dark-muted small mb-4">Your Global Exhibition Partner</p>
+          <p class="text-on-dark-muted small">
+            Full-service exhibit and event marketing company producing brand experiences worldwide.
+          </p>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div class="col-lg-3 col-md-6">
+          <h6 class="tag-label light mb-3">NAVIGATION</h6>
+          <a href="index.html" class="footer-nav-link">Home</a>
+          <a href="about-us.html" class="footer-nav-link">About Us</a>
+          <a href="what-we-do.html" class="footer-nav-link">What We Do</a>
+          <a href="portfolio.html" class="footer-nav-link">Portfolio</a>
+          <a href="worldwide.html" class="footer-nav-link">Worldwide</a>
+          <a href="insights.html" class="footer-nav-link">Insights</a>
+          <a href="contact-us.html" class="footer-nav-link">Start a Project</a>
+        </div>
+
+        <!-- Col 3: Tokyo Headquarters Contact -->
+        <div class="col-lg-4 col-md-6">
+          <h6 class="tag-label light mb-3">HEADQUARTERS</h6>
+          <div class="footer-info-item text-white fw-bold">Space Display Co., Ltd.</div>
+          <div class="footer-info-item">2-27-7 Tateishi, Katsushika-ku</div>
+          <div class="footer-info-item">Tokyo 124-0012 Japan</div>
+          <div class="footer-info-item mt-3">Tel: +81 3 5875 7455</div>
+          <div class="footer-info-item">Fax: +81 3 5812 4145</div>
+          <div class="footer-info-item">Cell: +81 90 8963 7404</div>
+          <div class="footer-info-item mt-2">Email: <a href="mailto:info@spacedisplay.com"
+              class="text-white text-decoration-underline">info@spacedisplay.com</a></div>
+        </div>
+
+        <!-- Col 4: Back to top -->
+        <div class="col-lg-1 d-flex justify-content-lg-end align-items-start">
+          <a href="#hero" class="btn-back-to-top" aria-label="Back to Top">
+            <i class="bi bi-arrow-up fs-4"></i>
+          </a>
+        </div>
+
+      </div>
+
+      <div
+        class="d-flex flex-column flex-md-row justify-content-between align-items-center pt-4 small text-on-dark-muted">
+        <div>&copy; 2026 Space Display Co., Ltd. All rights reserved.</div>
+        <div class="footer-social-links d-flex align-items-center gap-3 mt-3 mt-md-0">
+          <a href="https://www.instagram.com/spacedisplayglobal/" target="_blank" rel="noopener" aria-label="Instagram" class="footer-social-icon"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.facebook.com/spacedisplayglobal/" target="_blank" rel="noopener" aria-label="Facebook" class="footer-social-icon"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.linkedin.com/company/space-display-co-ltd/" target="_blank" rel="noopener" aria-label="LinkedIn" class="footer-social-icon"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube" class="footer-social-icon"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript Dependencies -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+
+  <!-- Main Script -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
